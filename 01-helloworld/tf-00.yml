@@ -1,0 +1,12 @@
+name: tf-00
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python==3.11
+  - ipykernel
+  - setuptools
+  - pip:
+    - tensorflow
